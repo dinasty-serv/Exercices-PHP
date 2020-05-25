@@ -260,7 +260,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                         <div class="col-md-4">
                             <center><h4>Résultat recherche séquentielle</h4>
-                                <p>(Avec trie du tablau par ordre croissant)</p>
+                                <p>(Avec trie du tableau par ordre croissant)</p>
                             </center>
 
                             <div class="card mb-4 shadow-sm">
@@ -302,7 +302,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <center><h4>Resultat tri a bull</h4></center>
+                            <center><h4>Résultat tri à bulles</h4></center>
                             <div class="card mb-4 shadow-sm">
                                 <div class="card-body">
                                     <ul>    
@@ -320,7 +320,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                          <div class="col-md-4">
-                            <center><h4>Resultat tri a Insertion</h4></center>
+                            <center><h4>Résultat tri à Insertion</h4></center>
                             <div class="card mb-4 shadow-sm">
                                 <div class="card-body">
                                     <ul>    
