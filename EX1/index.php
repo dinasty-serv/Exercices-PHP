@@ -188,7 +188,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             if ($valeur < $v) {
                                                 $valeur = $v;
                                             }
-                                        }
+                                        } 
 
                                         echo 'La valeur la plus grande est: ' . $valeur;
                                         ?>
@@ -247,9 +247,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <?php
                                     if (!empty($result1)) {
                                         if ($result1['error']) {
-                                            echo 'La valeur ' . $result1['data'] . ' ne se trouve pas dans le tablau';
+                                            echo 'La valeur ' . $result1['data'] . ' ne se trouve pas dans le tableau';
                                         } else {
-                                            echo 'La valeur ' . $result1['data'] . ' se trouve dans le tablau';
+                                            echo 'La valeur ' . $result1['data'] . ' se trouve dans le tableau';
                                         }
                                     }
                                     ?>
@@ -269,9 +269,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <?php
                                     if (!empty($result2)) {
                                         if ($result2['error']) {
-                                            echo 'La valeur ' . $result2['value'] . ' ne se trouve pas dans le tablau';
+                                            echo 'La valeur ' . $result2['value'] . ' ne se trouve pas dans le tableau';
                                         } else {
-                                            echo 'La valeur ' . $result2['value'] . ' se trouve dans le tablau en position ' . $result2['position'];
+                                            echo 'La valeur ' . $result2['value'] . ' se trouve dans le tableau en position ' . $result2['position'];
                                         }
                                     }
                                     ?>
@@ -291,9 +291,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <?php
                                     if (!empty($result3)) {
                                         if ($result3['error']) {
-                                            echo 'La valeur ' . $result3['value'] . ' ne se trouve pas dans le tablau';
+                                            echo 'La valeur ' . $result3['value'] . ' ne se trouve pas dans le tableau';
                                         } else {
-                                            echo 'La valeur ' . $result3['value'] . ' se trouve dans le tablau en position ' . $result3['position'];
+                                            echo 'La valeur ' . $result3['value'] . ' se trouve dans le tableau en position ' . $result3['position'];
                                         }
                                     }
                                     ?>
